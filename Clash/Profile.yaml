@@ -29,8 +29,6 @@ dns:
     - '*.msftconnecttest.com'
     - '*.mcdn.bilivideo.cn'
     - 'WORKGROUP'
-    - 'sequoia.apple.com'
-    - 'seed-sequoia.siri.apple.com'
   nameserver:
     - 119.29.29.29
     - 114.114.114.114
