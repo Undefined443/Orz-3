@@ -11,6 +11,9 @@ dns:
   default-nameserver:
     - 114.114.114.114
     - 223.6.6.6
+  nameserver:
+    - 114.114.114.114
+    - 223.6.6.6
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -29,17 +32,6 @@ dns:
     - '*.msftconnecttest.com'
     - '*.mcdn.bilivideo.cn'
     - 'WORKGROUP'
-  nameserver:
-    - 114.114.114.114
-    - 223.6.6.6
-  nameserver-policy:
-    # > Google Dl
-    'dl.google.com': 119.29.29.29
-    'dl.l.google.com': 119.29.29.29
-    'update.googleapis.com': 119.29.29.29
-    # > PlayStation
-    '*.dl.playstation.net': 119.29.29.29
-
 rules:
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
